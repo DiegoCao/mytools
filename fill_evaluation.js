@@ -12,13 +12,13 @@ console.log(texts.length)
 for (let i = 0; i < texts.length; i += 1){
     var modval = i%3
     if (modval == 0){
-        // first type question
-        texts[i].value = "The major strength of the class is the interaction between the students and instructors"
+        // first type question define your own answer in each one of them
+        texts[i].value = "Great"
     }
     else if(modval == 1){
-        texts[i].value = "Very good class and I enjoy in this semester"
+        texts[i].value = "Good"
     }
     else{
-        texts[i].value = "A very responsible Instructor and I truly learn a lot, thanks"
+        texts[i].value = "Thanks a lot for the instruction"
     }
 }
